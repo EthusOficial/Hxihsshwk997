@@ -31,7 +31,7 @@ local DiscordTab = Window:MakeTab({
 -- Mensagem e botão para copiar o link do Discord
 DiscordTab:AddLabel("Última atualização em 09/12/24")
 DiscordTab:AddButton({
-    Name = "Comunidade do Discord ",
+    Name = "Comunidade no discord",
     Callback = function()
         setclipboard("https://discord.gg/GMDGeYEVHW") -- Link do Discord
         OrionLib:MakeNotification({
@@ -42,9 +42,9 @@ DiscordTab:AddButton({
         })
     end
 })
-DiscordTab:AddLabel("Executores Atualizado!")
+DiscordTab:AddLabel("Executores Atualizados")
 DiscordTab:AddButton({
-    Name = "Executores Atualizado ( site )",
+    Name = "Executores Atualizados",
     Callback = function()
         setclipboard("https://beacons.ai/ethus/mobile") -- Link do Beacons
         OrionLib:MakeNotification({
