@@ -1,0 +1,132 @@
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/NIGHT163626/ScriptHUB/refs/heads/main/open%20sourcezada.txt'))()
+local Player = game.Players.LocalPlayer
+
+-- Configurações da Janela Principal
+local Window = OrionLib:MakeWindow({
+    Name = "Xethus Hub | Universal BR", 
+    SearchBar = { Default = 'Pesquise', ClearTextOnFocus = true }, 
+    HidePremium = false, 
+    SaveConfig = true, 
+    ConfigFolder = "Xethus",
+    IntroText = "Xethus Hub",
+    IntroIcon = "rbxassetid://73200509058998"
+})
+
+-- Função Auxiliar para Adicionar Botões
+local function AddScriptButton(tab, name, url)
+    tab:AddButton({
+        Name = name,
+        Callback = function()
+            loadstring(game:HttpGet(url))()
+        end
+    })
+end
+-- [ Aba: canal do Youtube e Executores]
+local DiscordTab = Window:MakeTab({
+    Name = "Painel ",
+    Icon = "rbxassetid://11819163504",
+    PremiumOnly = false
+})
+
+-- Mensagem e botão para copiar o link do Discord
+DiscordTab:AddLabel("Última atualização em 09/12/24")
+DiscordTab:AddButton({
+    Name = "Comunidade do Discord ",
+    Callback = function()
+        setclipboard("https://discord.gg/GMDGeYEVHW") -- Link do Discord
+        OrionLib:MakeNotification({
+            Name = "Link do Discord Copiado",
+            Content = "O link do Discord foi copiado!",
+            Image = "rbxassetid://5013032505",
+            Time = 5
+        })
+    end
+})
+DiscordTab:AddLabel("Executores Atualizado!")
+DiscordTab:AddButton({
+    Name = "Executores Atualizado ( site )",
+    Callback = function()
+        setclipboard("https://beacons.ai/ethus/mobile") -- Link do Beacons
+        OrionLib:MakeNotification({
+            Name = "Link dos executores foi Copiado",
+            Content = "O link foi copiado!",
+            Image = "rbxassetid://11819163504",
+            Time = 5
+        })
+    end
+})
+
+-- [ Aba: Animal Simulator ]
+local AnimalTab = Window:MakeTab({
+    Name = "Animal Simulator",
+    Icon = "rbxassetid://11348590078",
+    PremiumOnly = false
+})
+AnimalTab:AddLabel("Última atualização em 08/12/2024")
+
+-- Adicionar Scripts (Animal Simulator)
+AddScriptButton(AnimalTab, "Xethus Hub", "https://raw.githubusercontent.com/Hercules4328/Hidley/refs/heads/main/Premium")
+AddScriptButton(AnimalTab, "Animal Simulator (AFK)", "https://raw.githubusercontent.com/NewWhitelistService/open-source/refs/heads/main/animal%20simulator%20afk%20farm.lua")
+AddScriptButton(AnimalTab, "Unfair Hub", "https://raw.githubusercontent.com/rbIxscriptsnet/unfair/main/rblxhub.lua")
+AddScriptButton(AnimalTab, "New Hub", "https://bmacaveli.link/newhub")
+AddScriptButton(AnimalTab, "HeimDalls GUI", "https://raw.githubusercontent.com/Golddeathninja03/rte/refs/heads/main/New%20Version")
+AddScriptButton(AnimalTab, "Animal Simulator - Crow Script", "https://raw.githubusercontent.com/CrowzScripts/AnimalSim/main/CrowOnTop")
+AddScriptButton(AnimalTab, "LT Fruits 1.9", "https://raw.githubusercontent.com/kokojoscripts/LT-FRUITS-UPDT/main/1.9")
+AddScriptButton(AnimalTab, "Nidizz Hub", "https://raw.githubusercontent.com/Nidizz/Roblox/main/Animal%20Simulator%20Script")
+AddScriptButton(AnimalTab, "Animal Simulator OP", "https://raw.githubusercontent.com/pickles20/Scriptzzz/main/Lua%20Script")
+AddScriptButton(AnimalTab, "Rblx Hub", "https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua")
+AddScriptButton(AnimalTab, "Dynamic Hub", "https://pastebin.com/raw/njum95dh")
+AddScriptButton(AnimalTab, "Free Hub", "https://raw.githubusercontent.com/FreeeScripts/FREEHub/main/Loader")
+AddScriptButton(AnimalTab, "Animal Simulator Hub", "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AnimalSimulator.lua")
+AddScriptButton(AnimalTab, "Animal Simulator", "https://github.com/KhSaeed90/Roblox/raw/workspace/5712833750")
+AddScriptButton(AnimalTab, "Ice Hub", "https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven")
+
+
+
+
+-- [ Aba: Fisch ]
+local FischTab = Window:MakeTab({
+    Name = "Fisch",
+    Icon = "rbxassetid://11348590078",
+    PremiumOnly = false
+})
+FischTab:AddLabel("Última atualização em 09/12/2024")
+AddScriptButton(FischTab, "Xethus Hub", "https://raw.githubusercontent.com/Hercules4328/UnderwaterBR/refs/heads/main/Fisch")
+AddScriptButton(FischTab, "Native Hub", "https://raw.githubusercontent.com/Native-lab/Native/main/loader.lua")
+AddScriptButton(FischTab, "Hidden Hub", "https://raw.githubusercontent.com/tulontop/HiddenRevamp/refs/heads/main/Loader.luau")
+AddScriptButton(FischTab, "Alchemy Hub", "https://scripts.alchemyhub.xyz/")
+AddScriptButton(FischTab, "Speed Hub X", "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua")
+AddScriptButton(FischTab, "Prestine Hub", "https://raw.githubusercontent.com/Hercules4328/UnderwaterBR/refs/heads/main/Fisch")
+AddScriptButton(FischTab, "Moon X Hub", "https://api.luarmor.net/files/v3/loaders/cba17b913ee63c7bfdbb9301e2d87c8b.lua")
+AddScriptButton(FischTab, "Witch Hub", "https://raw.githubusercontent.com/londnee/code/refs/heads/main/Fisch.lua")
+AddScriptButton(FischTab, "Bonk Hub", "https://bonkhubloader.netlify.app")
+AddScriptButton(FischTab, "Average Hub", "https://api.flow-hub.xyz/loader")
+AddScriptButton(FischTab, "Forge Hub", "https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua")
+AddScriptButton(FischTab, "Nebora Hub", "https://api.luarmor.net/files/v3/loaders/499fa8eaaae391c6c3c77f2640811357.lua")
+AddScriptButton(FischTab, "Asther Hub", "https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua")
+AddScriptButton(FischTab, "Abstractful Hub V2", "https://raw.githubusercontent.com/AbstractHub/ScriptHub/refs/heads/Loader/AutoFish")
+AddScriptButton(FischTab, "Allux Hub", "https://raw.githubusercontent.com/iminreality/Allux/refs/heads/main/Fish_GrabXP.lua")
+AddScriptButton(FischTab, "Nausigi Hub", "https://raw.githubusercontent.com/scriptpastebin/raw/main/Nausigi")
+AddScriptButton(FischTab, "Adam Hub", "https://raw.githubusercontent.com/DENGHUB2025/HUGHUB/main/WL")
+AddScriptButton(FischTab, "Onyx Hub", "https://raw.githubusercontent.com/zenzon23/ONYX-HUB123/refs/heads/main/FISCH")
+AddScriptButton(FischTab, "Nicuse Hub", "https://api.luarmor.net/files/v3/loaders/bd8b5a2f8618a502e393798c497450b5.lua")
+AddScriptButton(FischTab, "Eternal Hub", "https://raw.githubusercontent.com/Vixx77/Eternal/main/EternalHub_Fish")
+AddScriptButton(FischTab, "Rinns Hub", "https://raw.githubusercontent.com/kylosilly/femboyware/refs/heads/main/Fisch.lua")
+AddScriptButton(FischTab, "Xnox Hub", "https://raw.githubusercontent.com/kidxnox/f/refs/heads/main/f")
+AddScriptButton(FischTab, "Gooba Hub", "https://raw.githubusercontent.com/JustLevel/goombahub/main/fisch.lua")
+AddScriptButton(FischTab, "Public Hub", "https://raw.githubusercontent.com/Lythicals/script/main/Fisch.lua")
+AddScriptButton(FischTab, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LOLking123456/Fisch/refs/heads/main/New")
+AddScriptButton(FischTab, "Neuro Hub", "https://raw.githubusercontent.com/Yumiara/CPP/refs/heads/main/Main.cpp")
+
+
+
+
+
+-- [ Aba: King Legacy ]
+local KingLegacyTab = Window:MakeTab({
+    Name = "King Legacy",
+    Icon = "rbxassetid://11348590078",
+    PremiumOnly = false
+})
+AddScriptButton(KingLegacyTab, "Matheuszxs Hub", "https://raw.githubusercontent.com/matheuzxs/matheuzxs.lua/main/Loader")
+
