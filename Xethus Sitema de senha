@@ -104,7 +104,7 @@ DiscordTab:AddLabel("Entre na minha comunidade com mais de 100K de membros!")
 DiscordTab:AddButton({
     Name = "Copiar link do Discord",
     Callback = function()
-        setclipboard("https://discord.gg/GMDGeYEVHW")
+        setclipboard("https://discord.gg/s58hmqv8")
         OrionLib:MakeNotification({
             Name = "Link do Discord Copiado",
             Content = "O link do Discord foi copiado!",
