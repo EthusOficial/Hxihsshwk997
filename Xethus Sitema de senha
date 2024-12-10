@@ -12,7 +12,7 @@ local Window = OrionLib:MakeWindow({
 
 -- Função para executar o script principal
 function MakeScriptHub()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hercules4328/XethusOscript/refs/heads/main/Xethus%20sem%20obsfucator')))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ETHUS2/XethusHub/refs/heads/main/UniversalBR"))()
 end
 
 -- Notificação inicial
