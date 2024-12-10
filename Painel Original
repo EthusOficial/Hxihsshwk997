@@ -117,6 +117,7 @@ AddScriptButton(FischTab, "Gooba Hub", "https://raw.githubusercontent.com/JustLe
 AddScriptButton(FischTab, "Public Hub", "https://raw.githubusercontent.com/Lythicals/script/main/Fisch.lua")
 AddScriptButton(FischTab, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LOLking123456/Fisch/refs/heads/main/New")
 AddScriptButton(FischTab, "Neuro Hub", "https://raw.githubusercontent.com/Yumiara/CPP/refs/heads/main/Main.cpp")
+AddScriptButton(FischTab, "Neuro Hub", "https://raw.githubusercontent.com/Yumiara/CPP/refs/heads/main/Main.cpp")
 
 
 
@@ -135,4 +136,8 @@ AddScriptButton(KingLegacyTab, "Matheuszxs Hub", "https://raw.githubusercontent.
 
 AddScriptButton(KingLegacyTab, "Omg Hub", "https://pastebin.com/raw/vp8mw7KV")
 
-AddScriptButton(KingLegacyTab, "Tc Hub", "https://github.com/KV-TCode/DonateMe/releases/download/TC_Hub/Loader.lua")
+AddScriptButton(KingLegacyTab, "TC Hub", "https://github.com/KV-TCode/DonateMe/releases/download/TC_Hub/Loader.lua")
+AddScriptButton(KingLegacyTab, "Zeen Hub", "https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/zennewwwwui.lua")
+AddScriptButton(KingLegacyTab, "Hyper Hub", "https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua")
+AddScriptButton(KingLegacyTab, "Arc Hub", "https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua")
+AddScriptButton(KingLegacyTab, "BT Hub", "https://lua-library.btteam.net/script-auth.txt")
