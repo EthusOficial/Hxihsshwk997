@@ -141,3 +141,5 @@ AddScriptButton(KingLegacyTab, "Zeen Hub", "https://raw.githubusercontent.com/Ze
 AddScriptButton(KingLegacyTab, "Hyper Hub", "https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua")
 AddScriptButton(KingLegacyTab, "Arc Hub", "https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua")
 AddScriptButton(KingLegacyTab, "BT Hub", "https://lua-library.btteam.net/script-auth.txt")
+AddScriptButton(KingLegacyTab, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LOLking123456/upd7/refs/heads/main/Legacy")
+
