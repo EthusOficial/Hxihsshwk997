@@ -117,7 +117,7 @@ AddScriptButton(FischTab, "Gooba Hub", "https://raw.githubusercontent.com/JustLe
 AddScriptButton(FischTab, "Public Hub", "https://raw.githubusercontent.com/Lythicals/script/main/Fisch.lua")
 AddScriptButton(FischTab, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LOLking123456/Fisch/refs/heads/main/New")
 AddScriptButton(FischTab, "Neuro Hub", "https://raw.githubusercontent.com/Yumiara/CPP/refs/heads/main/Main.cpp")
-AddScriptButton(FischTab, "Hutao Hub Hub", "https://raw.githubusercontent.com/HutaoHubs/Hutaohubs2.0/refs/heads/main/FischV2.lua")
+AddScriptButton(FischTab, "Hutao Hub", "https://raw.githubusercontent.com/HutaoHubs/Hutaohubs2.0/refs/heads/main/FischV2.lua")
 
 
 
