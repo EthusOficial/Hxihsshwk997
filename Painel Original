@@ -128,5 +128,11 @@ local KingLegacyTab = Window:MakeTab({
     Icon = "rbxassetid://11348590078",
     PremiumOnly = false
 })
+
+
+
 AddScriptButton(KingLegacyTab, "Matheuszxs Hub", "https://raw.githubusercontent.com/matheuzxs/matheuzxs.lua/main/Loader")
 
+AddScriptButton(KingLegacyTab, "Omg Hub", "https://pastebin.com/raw/vp8mw7KV")
+
+AddScriptButton(KingLegacyTab, "Tc Hub", "https://github.com/KV-TCode/DonateMe/releases/download/TC_Hub/Loader.lua")
