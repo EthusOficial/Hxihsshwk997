@@ -33,7 +33,7 @@ DiscordTab:AddLabel("Última atualização em 10/12/24")
 DiscordTab:AddButton({
     Name = "Comunidade no discord",
     Callback = function()
-        setclipboard("https://discord.gg/GMDGeYEVHW") -- Link do Discord
+        setclipboard("https://discord.gg/s58hmqv8") -- Link do Discord
         OrionLib:MakeNotification({
             Name = "Link do Discord Copiado",
             Content = "O link do Discord foi copiado!",
