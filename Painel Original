@@ -129,7 +129,7 @@ local KingLegacyTab = Window:MakeTab({
     PremiumOnly = false
 })
 
-
+KingLegacyTab:AddLabel("Última atualização em 10/12/2024")
 
 AddScriptButton(KingLegacyTab, "Matheuszxs Hub", "https://raw.githubusercontent.com/matheuzxs/matheuzxs.lua/main/Loader")
 
