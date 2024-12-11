@@ -90,7 +90,7 @@ local FischTab = Window:MakeTab({
     Icon = "rbxassetid://11348590078",
     PremiumOnly = false
 })
-FischTab:AddLabel("Última atualização em 10/12/2024")
+FischTab:AddLabel("Última atualização em 11/12/2024")
 AddScriptButton(FischTab, "Xethus Hub", "https://raw.githubusercontent.com/Hercules4328/UnderwaterBR/refs/heads/main/Fisch")
 AddScriptButton(FischTab, "Native Hub", "https://raw.githubusercontent.com/Native-lab/Native/main/loader.lua")
 AddScriptButton(FischTab, "Hidden Hub", "https://raw.githubusercontent.com/tulontop/HiddenRevamp/refs/heads/main/Loader.luau")
@@ -118,6 +118,8 @@ AddScriptButton(FischTab, "Public Hub", "https://raw.githubusercontent.com/Lythi
 AddScriptButton(FischTab, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LOLking123456/Fisch/refs/heads/main/New")
 AddScriptButton(FischTab, "Neuro Hub", "https://raw.githubusercontent.com/Yumiara/CPP/refs/heads/main/Main.cpp")
 AddScriptButton(FischTab, "Hutao Hub", "https://raw.githubusercontent.com/HutaoHubs/Hutaohubs2.0/refs/heads/main/FischV2.lua")
+AddScriptButton(FischTab, "Naomi Hub", "https://naokihub.vercel.app")
+
 
 
 
