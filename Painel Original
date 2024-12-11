@@ -29,7 +29,7 @@ local DiscordTab = Window:MakeTab({
 })
 
 -- Mensagem e botão para copiar o link do Discord
-DiscordTab:AddLabel("Última atualização em 10/12/24")
+DiscordTab:AddLabel("Última atualização em 11/12/24")
 DiscordTab:AddButton({
     Name = "Comunidade no discord",
     Callback = function()
