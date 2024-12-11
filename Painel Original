@@ -56,6 +56,22 @@ DiscordTab:AddButton({
     end
 })
 
+-- [ Aba: Anime Realms ]
+local animerealms = Window:MakeTab({
+    Name = "Anime Realms",
+    Icon = "rbxassetid://11348590078",
+    PremiumOnly = false
+})
+animerealms:AddLabel("Última atualização em 11/12/2024")
+AddScriptButton(animerealms, "Fazium Hub", "https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader")
+AddScriptButton(animerealms, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/rea/refs/heads/main/lms")
+AddScriptButton(animerealms, "OMG Hub", "https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua")
+AddScriptButton(animerealms, "Imp Hub", "https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua")
+AddScriptButton(animerealms, "Namelles Hub", "https://raw.githubusercontent.com/HenSeu87PofghYT/Anime-Realms/main/Nameless%20Scripts")
+AddScriptButton(animerealms, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LHking123456/4iql1Ug5AYvTN/refs/heads/main/Anime")
+AddScriptButton(animerealms, "LOS Hub", "https://raw.githubusercontent.com/LosHUB/L-HUBV3/main/L-HUBV3")
+
+
 -- [ Aba: Animal Simulator ]
 local AnimalTab = Window:MakeTab({
     Name = "Animal Simulator",
