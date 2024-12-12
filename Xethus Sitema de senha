@@ -88,7 +88,7 @@ KeyTab:AddButton({
 KeyTab:AddButton({
     Name = "Gerar Link da Senha",
     Callback = function()
-        setclipboard("https://rekonise.com/como-pegar-a-senha-do-script-%E2%AC%87%EF%B8%8F-peruk") -- Copia o link da senha
+        setclipboard("https://rekonise.com/como-pegar-a-senha-do-script-%E2%AC%87%EF%B8%8F-gqbjw") -- Copia o link da senha
         OrionLib:MakeNotification({
             Name = "Link Copiado",
             Content = "O link da senha foi copiado para sua área de transferência.",
