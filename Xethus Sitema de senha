@@ -24,7 +24,7 @@ OrionLib:MakeNotification({
 })
 
 -- Configuração da Key
-getgenv().Key = "ipltadbrnsln12her" -- Chave correta
+getgenv().Key = "EI@rcVfC&e" -- Chave correta
 getgenv().KeyInput = ""
 local KeySaved = isfile("Xethus_KeyData.txt") and readfile("Xethus_KeyData.txt") or nil
 local KeyExpiration = isfile("Xethus_KeyExpiration.txt") and tonumber(readfile("Xethus_KeyExpiration.txt")) or 0
@@ -88,7 +88,7 @@ KeyTab:AddButton({
 KeyTab:AddButton({
     Name = "Gerar Link da Senha",
     Callback = function()
-        setclipboard("https://4br.me/XerhusHubGeneringKeys") -- Copia o link da senha
+        setclipboard("https://rekonise.com/como-pegar-a-senha-do-script-%E2%AC%87%EF%B8%8F-peruk") -- Copia o link da senha
         OrionLib:MakeNotification({
             Name = "Link Copiado",
             Content = "O link da senha foi copiado para sua área de transferência.",
