@@ -29,7 +29,7 @@ local DiscordTab = Window:MakeTab({
 })
 
 -- Mensagem e botão para copiar o link do Discord
-DiscordTab:AddLabel("Última atualização em 11/12/24")
+DiscordTab:AddLabel("Última atualização em 12/12/24")
 DiscordTab:AddButton({
     Name = "Comunidade no discord",
     Callback = function()
@@ -97,6 +97,18 @@ AddScriptButton(AnimalTab, "Animal Simulator Hub", "https://raw.githubuserconten
 AddScriptButton(AnimalTab, "Animal Simulator", "https://github.com/KhSaeed90/Roblox/raw/workspace/5712833750")
 AddScriptButton(AnimalTab, "Ice Hub", "https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven")
 
+-- [ Aba: Blue Lock Rivals ]
+local BluelockRivals = Window:MakeTab({
+    Name = "Blue Lock Rivals",
+    Icon = "rbxassetid://11348590078",
+    PremiumOnly = false
+})
+BluelockRivals:AddLabel("Última atualização em 12/12/2024")
+AddScriptButton(BluelockRivals, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LOLking123456/Lock/refs/heads/main/Blue")
+AddScriptButton(BluelockRivals, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/fo/refs/heads/main/ot")
+AddScriptButton(BluelockRivals, "Tora Isme Hub", "https://raw.githubusercontent.com/ToraScript/Script/main/BlueLock")
+AddScriptButton(BluelockRivals, "Sendox Hub", "https://api.luarmor.net/files/v3/loaders/2f4e30b1511c2c07bee1be782460a57a.lua")
+AddScriptButton(BluelockRivals, "Flow Hub", "https://pastebin.com/raw/D1M2PLua")
 
 
 
