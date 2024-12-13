@@ -104,7 +104,7 @@ local BloxFruits = Window:MakeTab({
     Icon = "rbxassetid://11348590078",
     PremiumOnly = false
 })
-BloxFruits:AddLabel("Última atualização em 14/12/2024 |150 scripts </>|")
+BloxFruits:AddLabel("Última atualização em 14/12/2024|150 scripts")
 
 
 AddScriptButton(BloxFruits, "Redz Hub", "https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua")
@@ -156,7 +156,7 @@ AddScriptButton(BloxFruits, "Fai FaoV2 Hub", "https://raw.githubusercontent.com/
 AddScriptButton(BloxFruits, "Matsune Hub", "https://raw.githubusercontent.com/Yatsuraa/Matsune/main/MatsuneV3.lua")
 AddScriptButton(BloxFruits, "BT project Hub", "https://lua-library.btteam.net/script-auth.txt")
 AddScriptButton(BloxFruits, "XT Hub", "https://github.com/Basicallyy/Basicallyy/raw/main/Min_XT_V2_.lua")
-AddScriptButton(BloxFruits, "Nova Hub", "https://raw.githubusercontent.com/NovaTeamScripts/NovaHub/main/NovaLoader.lua")
+AddScriptButton(BloxFruits, "Poison Hub", "https://raw.githubusercontent.com/LuaCrack/Poison/refs/heads/main/PoisonHub")
 AddScriptButton(BloxFruits, "Galaxy Hub", "https://raw.githubusercontent.com/GalaxyHub/GalaxyScripts/main/GalaxyHub.lua")
 AddScriptButton(BloxFruits, "Prime Hub", "https://raw.githubusercontent.com/PrimeScripts/Loader/main/PrimeHub.lua")
 AddScriptButton(BloxFruits, "Phantom Hub", "https://raw.githubusercontent.com/PhantomXHubs/Source/main/PhantomLoader.lua")
