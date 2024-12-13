@@ -118,7 +118,7 @@ local FischTab = Window:MakeTab({
     Icon = "rbxassetid://11348590078",
     PremiumOnly = false
 })
-FischTab:AddLabel("Última atualização em 11/12/2024")
+FischTab:AddLabel("Última atualização em 13/12/2024")
 AddScriptButton(FischTab, "Xethus Hub", "https://raw.githubusercontent.com/Hercules4328/UnderwaterBR/refs/heads/main/Fisch")
 AddScriptButton(FischTab, "Native Hub", "https://raw.githubusercontent.com/Native-lab/Native/main/loader.lua")
 AddScriptButton(FischTab, "Hidden Hub", "https://raw.githubusercontent.com/tulontop/HiddenRevamp/refs/heads/main/Loader.luau")
@@ -147,6 +147,9 @@ AddScriptButton(FischTab, "Legend HandlesYT Hub", "https://raw.githubusercontent
 AddScriptButton(FischTab, "Neuro Hub", "https://raw.githubusercontent.com/Yumiara/CPP/refs/heads/main/Main.cpp")
 AddScriptButton(FischTab, "Hutao Hub", "https://raw.githubusercontent.com/HutaoHubs/Hutaohubs2.0/refs/heads/main/FischV2.lua")
 AddScriptButton(FischTab, "Naomi Hub", "https://naokihub.vercel.app")
+AddScriptButton(FischTab, "Mercury Hub", "https://api.luarmor.net/files/v3/loaders/c019f214a19894b50f0b8e817b70d25f.lua")
+AddScriptButton(FischTab, "Native Hub", "https://raw.githubusercontent.com/Native-lab/Native/main/loader.lua")
+AddScriptButton(FischTab, "Tsuo Hub", "https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/king%20legacy")
 
 
 
