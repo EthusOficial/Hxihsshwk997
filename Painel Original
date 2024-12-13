@@ -117,7 +117,7 @@ AddScriptButton(BloxFruits, "Min Levi Hub", "https://raw.githubusercontent.com/L
 AddScriptButton(BloxFruits, "Auto Bounty Hub", "https://pastebin.com/raw/KcKt4uJL")
 AddScriptButton(BloxFruits, "Zet Hub", "https://raw.githubusercontent.com/Scriptztyz/robloxscript/refs/heads/main/ZetHubMainScript")
 AddScriptButton(BloxFruits, "Attack Hub", "pastebin.com")
-AddScriptButton(BloxFruits, "https://raw.githubusercontent.com/KOBENFF/sdfd/refs/heads/main/Koatta.txt")
+AddScriptButton(BloxFruits, "Kotta Hub", "https://raw.githubusercontent.com/KOBENFF/sdfd/refs/heads/main/Koatta.txt")
 AddScriptButton(BloxFruits, "Green X Hub", "https://raw.githubusercontent.com/BreakNameFast8/GreenX/refs/heads/main/green.lua")
 AddScriptButton(BloxFruits, "Lunar Hub", "https://raw.githubusercontent.com/NguyenLam2504/anhyeuem/main/bloxshitfarm.lua")
 AddScriptButton(BloxFruits, "Smile Hub", "https://raw.githubusercontent.com/HuyLocDz/Blox-Fruit/main/TinhLinhHub.lua")
