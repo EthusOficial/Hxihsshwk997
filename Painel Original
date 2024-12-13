@@ -78,7 +78,7 @@ local AnimalTab = Window:MakeTab({
     Icon = "rbxassetid://11348590078",
     PremiumOnly = false
 })
-AnimalTab:AddLabel("Última atualização em 08/12/2024")
+AnimalTab:AddLabel("Última atualização em 13/12/2024")
 
 -- Adicionar Scripts (Animal Simulator)
 AddScriptButton(AnimalTab, "Xethus Hub", "https://raw.githubusercontent.com/Hercules4328/Hidley/refs/heads/main/Premium")
