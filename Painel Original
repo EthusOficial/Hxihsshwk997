@@ -24,7 +24,7 @@ end
 -- [ Aba: canal do Youtube e Executores]
 local DiscordTab = Window:MakeTab({
     Name = "Painel ",
-    Icon = "rbxassetid://11819163504",
+    Icon = "rbxassetid://7743875962",
     PremiumOnly = false
 })
 
