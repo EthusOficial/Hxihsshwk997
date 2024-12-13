@@ -32,8 +32,8 @@ local KeyExpiration = isfile("Xethus_KeyExpiration.txt") and tonumber(readfile("
 -- Verificar se a Key salva ainda é válida
 if KeySaved == getgenv().Key and os.time() < KeyExpiration then
     OrionLib:MakeNotification({
-        Name = "Key Verificada",
-        Content = "Key válida! Executando o Hub automaticamente.",
+        Name = "Senha Verificada",
+        Content = "Senha válida! Executando o Hub automaticamente.",
         Image = "rbxassetid://4483345998",
         Time = 5
     })
@@ -92,7 +92,7 @@ KeyTab:AddButton({
         OrionLib:MakeNotification({
             Name = "Link Copiado",
             Content = "O link da senha foi copiado para sua área de transferência.",
-            Image = "rbxassetid://5013032505",
+            Image = "rbxassetid://7743875962",
             Time = 5
         })
     end
