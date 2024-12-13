@@ -96,6 +96,7 @@ AddScriptButton(AnimalTab, "Free Hub", "https://raw.githubusercontent.com/FreeeS
 AddScriptButton(AnimalTab, "Animal Simulator Hub", "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AnimalSimulator.lua")
 AddScriptButton(AnimalTab, "Animal Simulator", "https://github.com/KhSaeed90/Roblox/raw/workspace/5712833750")
 AddScriptButton(AnimalTab, "Ice Hub", "https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven")
+AddScriptButton(AnimalTab, "Animal Simulator Hub", "https://raw.githubusercontent.com/Markklol/Script/refs/heads/main/Animal%20Simulator%20Script2")
 
 -- [ Aba: Blue Lock Rivals ]
 local BluelockRivals = Window:MakeTab({
