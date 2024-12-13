@@ -152,6 +152,34 @@ AddScriptButton(FischTab, "Native Hub", "https://raw.githubusercontent.com/Nativ
 AddScriptButton(FischTab, "Tsuo Hub", "https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/king%20legacy")
 
 
+-- [ Aba: Blue Lock Rivals ]
+local gofiching = Window:MakeTab({
+    Name = "Go Fishing",
+    Icon = "rbxassetid://11348590078",
+    PremiumOnly = false
+})
+gofiching:AddLabel("Última atualização em 13/12/2024")
+AddScriptButton(gofiching, "Beecon Hub", "https://raw.githubusercontent.com/BaconBossScript/BeeconHub/main/BeeconHub")
+AddScriptButton(gofiching, "Tora Isme Hub", "https://raw.githubusercontent.com/ToraScript/Script/main/GOFISHING")
+AddScriptButton(gofiching, "Imp Hub", "https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua")
+AddScriptButton(gofiching, "Naoki Hub", "https://naokihub.vercel.app")
+AddScriptButton(gofiching, "Candy Hub", "https://raw.githubusercontent.com/vateq/CandyHub/refs/heads/main/Loader.lua")
+AddScriptButton(gofiching, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/go/refs/heads/main/is")
+
+-- [ Aba: Blue Lock Rivals ]
+local gofiching = Window:MakeTab({
+    Name = "Go Fishing",
+    Icon = "rbxassetid://11348590078",
+    PremiumOnly = false
+})
+gofiching:AddLabel("Última atualização em 13/12/2024")
+AddScriptButton(gofiching, "Beecon Hub", "https://raw.githubusercontent.com/BaconBossScript/BeeconHub/main/BeeconHub")
+AddScriptButton(gofiching, "Tora Isme Hub", "https://raw.githubusercontent.com/ToraScript/Script/main/GOFISHING")
+AddScriptButton(gofiching, "Imp Hub", "https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua")
+AddScriptButton(gofiching, "Naoki Hub", "https://naokihub.vercel.app")
+AddScriptButton(gofiching, "Candy Hub", "https://raw.githubusercontent.com/vateq/CandyHub/refs/heads/main/Loader.lua")
+AddScriptButton(gofiching, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/go/refs/heads/main/is")
+
 
 
 
