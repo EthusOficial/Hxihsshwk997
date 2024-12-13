@@ -29,7 +29,7 @@ local DiscordTab = Window:MakeTab({
 })
 
 -- Mensagem e botão para copiar o link do Discord
-DiscordTab:AddLabel("Última atualização em 12/12/24")
+DiscordTab:AddLabel("Última atualização em 13/12/24")
 DiscordTab:AddButton({
     Name = "Comunidade no discord",
     Callback = function()
@@ -151,7 +151,6 @@ AddScriptButton(FischTab, "Mercury Hub", "https://api.luarmor.net/files/v3/loade
 AddScriptButton(FischTab, "Native Hub", "https://raw.githubusercontent.com/Native-lab/Native/main/loader.lua")
 AddScriptButton(FischTab, "Tsuo Hub", "https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/king%20legacy")
 
-
 -- [ Aba: Blue Lock Rivals ]
 local gofiching = Window:MakeTab({
     Name = "Go Fishing",
@@ -165,24 +164,6 @@ AddScriptButton(gofiching, "Imp Hub", "https://raw.githubusercontent.com/alan11a
 AddScriptButton(gofiching, "Naoki Hub", "https://naokihub.vercel.app")
 AddScriptButton(gofiching, "Candy Hub", "https://raw.githubusercontent.com/vateq/CandyHub/refs/heads/main/Loader.lua")
 AddScriptButton(gofiching, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/go/refs/heads/main/is")
-
--- [ Aba: Blue Lock Rivals ]
-local gofiching = Window:MakeTab({
-    Name = "Go Fishing",
-    Icon = "rbxassetid://11348590078",
-    PremiumOnly = false
-})
-gofiching:AddLabel("Última atualização em 13/12/2024")
-AddScriptButton(gofiching, "Beecon Hub", "https://raw.githubusercontent.com/BaconBossScript/BeeconHub/main/BeeconHub")
-AddScriptButton(gofiching, "Tora Isme Hub", "https://raw.githubusercontent.com/ToraScript/Script/main/GOFISHING")
-AddScriptButton(gofiching, "Imp Hub", "https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua")
-AddScriptButton(gofiching, "Naoki Hub", "https://naokihub.vercel.app")
-AddScriptButton(gofiching, "Candy Hub", "https://raw.githubusercontent.com/vateq/CandyHub/refs/heads/main/Loader.lua")
-AddScriptButton(gofiching, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/go/refs/heads/main/is")
-
-
-
-
 
 -- [ Aba: King Legacy ]
 local KingLegacyTab = Window:MakeTab({
