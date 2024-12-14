@@ -1,8 +1,8 @@
 local ChatService = game:GetService("Chat")
-local Players = game:GetService("Players")
+local Players = game:GetService("Player")
 
 -- Variável para armazenar a mensagem
-local mensagemPadrao = "Foram adicionados 150 scripts na aba do Blox Fruits é amanhã 15/12 vao ser adicionados mais scripts na Aba Blue Lock Rivals." -- Alterar a mensagem aqui
+local mensagemPadrao = "Aproveite a Atualização do Blox Fruits, Compatilhe o nosso script para seus amigos também Usarem!" -- Alterar a mensagem aqui
 
 -- Função para exibir balões de chat para todos os jogadores
 local function showBubbleChatForAll(message)
