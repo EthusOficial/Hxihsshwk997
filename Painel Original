@@ -106,15 +106,15 @@ local BloxFruits = Window:MakeTab({
 })
 BloxFruits:AddLabel("Atualização 14/12/2024|150 scripts </>")
 
+AddScriptButton(BloxFruits, "Kaitun❗️Hub", "https://pastebin.com/raw/s1iey8Rw")
+AddScriptButton(BloxFruits, "Auto Bounty❗️Hub", "https://pastebin.com/raw/KcKt4uJL")
 
 AddScriptButton(BloxFruits, "Redz Hub", "https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua")
 AddScriptButton(BloxFruits, "Hoho Hub", "https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI")
 AddScriptButton(BloxFruits, "Relz Hub", "https://raw.githubusercontent.com/farghii/relzhub/main/execute.hack")
-AddScriptButton(BloxFruits, "Kaitun❗️Hub", "https://pastebin.com/raw/s1iey8Rw")
 AddScriptButton(BloxFruits, "Thunder Z", "https://raw.githubusercontent.com/ThunderZ-HUB/HUBF/main/Script")
 AddScriptButton(BloxFruits, "Aurora Hub", "https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/Aurora")
 AddScriptButton(BloxFruits, "Min Levi Hub", "https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinMasEng")
-AddScriptButton(BloxFruits, "Auto Bounty❗️Hub", "https://pastebin.com/raw/KcKt4uJL")
 AddScriptButton(BloxFruits, "Zet Hub", "https://raw.githubusercontent.com/Scriptztyz/robloxscript/refs/heads/main/ZetHubMainScript")
 AddScriptButton(BloxFruits, "Attack Hub", "https://raw.githubusercontent.com/KOBENFF/sdfd/refs/heads/main/Koatta.txt")
 AddScriptButton(BloxFruits, "Domadic Hub", "https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript")
