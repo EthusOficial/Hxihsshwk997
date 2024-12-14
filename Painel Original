@@ -210,7 +210,7 @@ local BluelockRivals = Window:MakeTab({
     Icon = "rbxassetid://11348590078",
     PremiumOnly = false
 })
-BluelockRivals:AddLabel("Última atualização em 12/12/2024")
+BluelockRivals:AddLabel("Última atualização em 13/12/2024")
 AddScriptButton(BluelockRivals, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LOLking123456/Lock/refs/heads/main/Blue")
 AddScriptButton(BluelockRivals, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/fo/refs/heads/main/ot")
 AddScriptButton(BluelockRivals, "Tora Isme Hub", "https://raw.githubusercontent.com/ToraScript/Script/main/BlueLock")
