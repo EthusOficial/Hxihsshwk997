@@ -12,7 +12,7 @@ local Window = OrionLib:MakeWindow({
 
 -- Função para executar o script principal
 function MakeScriptHub()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ETHUS2/XethusHub/refs/heads/main/Painel%20Original"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ETHUS2/Hxihsshwk997/refs/heads/main/Painel%20Original"))()
 end
 
 -- Notificação inicial
