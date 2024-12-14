@@ -104,11 +104,10 @@ local BloxFruits = Window:MakeTab({
     Icon = "rbxassetid://11348590078",
     PremiumOnly = false
 })
-BloxFruits:AddLabel("Atualização 14/12/2024|150 scripts </>|")
+BloxFruits:AddLabel("Última atualização em 14/12/24")
 
 AddScriptButton(BloxFruits, "Auto Kaitun [⛩️]", "https://pastebin.com/raw/s1iey8Rw")
 AddScriptButton(BloxFruits, "Auto Bounty [💸]", "https://pastebin.com/raw/KcKt4uJL")
-
 AddScriptButton(BloxFruits, "Redz Hub", "https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua")
 AddScriptButton(BloxFruits, "Hoho Hub", "https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI")
 AddScriptButton(BloxFruits, "Relz Hub", "https://raw.githubusercontent.com/farghii/relzhub/main/execute.hack")
@@ -157,7 +156,7 @@ AddScriptButton(BloxFruits, "BT project Hub", "https://lua-library.btteam.net/sc
 AddScriptButton(BloxFruits, "XT Hub", "https://github.com/Basicallyy/Basicallyy/raw/main/Min_XT_V2_.lua")
 AddScriptButton(BloxFruits, "Poison Hub", "https://raw.githubusercontent.com/LuaCrack/Poison/refs/heads/main/PoisonHub")
 AddScriptButton(BloxFruits, "Zen Hub", "https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/zennewwwwui.lua")
-AddScriptButton(BloxFruits, "Prime Hub", "https://raw.githubusercontent.com/PrimeScripts/Loader/main/PrimeHub.lua")
+AddScriptButton(BloxFruits, "Tsuo Hub", "https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts")
 AddScriptButton(BloxFruits, "Phantom Hub", "https://raw.githubusercontent.com/PhantomXHubs/Source/main/PhantomLoader.lua")
 AddScriptButton(BloxFruits, "Echo Hub", "https://raw.githubusercontent.com/EchoHubOfficial/Scripts/main/Loader.lua")
 AddScriptButton(BloxFruits, "Omega Hub", "https://raw.githubusercontent.com/OmegaHubDev/OmegaScripts/main/Loader.lua")
