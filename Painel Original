@@ -28,9 +28,9 @@ local DiscordTab = Window:MakeTab({
 })
 
 -- Mensagem e botão para copiar o link do Discord
-DiscordTab:AddLabel("Última atualização em 13/12/24")
+DiscordTab:AddLabel("Última atualização em 15/12/24")
 DiscordTab:AddButton({
-    Name = "Comunidade no discord",
+    Name = "Copiar link do discord",
     Callback = function()
         setclipboard("https://discord.gg/s58hmqv8") -- Link do Discord
         OrionLib:MakeNotification({
@@ -43,7 +43,7 @@ DiscordTab:AddButton({
 })
 DiscordTab:AddLabel("Executores Atualizados")
 DiscordTab:AddButton({
-    Name = "Executores Atualizados",
+    Name = "Executores Atualizados (link direto)",
     Callback = function()
         setclipboard("https://beacons.ai/ethus/mobile") -- Link do Beacons
         OrionLib:MakeNotification({
@@ -103,10 +103,8 @@ local BloxFruits = Window:MakeTab({
     Icon = "rbxassetid://11348590078",
     PremiumOnly = false
 })
-BloxFruits:AddLabel("Última atualização em 14/12/24")
+BloxFruits:AddLabel("Última atualização em 15/12/24")
 
-AddScriptButton(BloxFruits, "Auto Kaitun [⛩️]", "https://pastebin.com/raw/s1iey8Rw")
-AddScriptButton(BloxFruits, "Auto Bounty [💸]", "https://pastebin.com/raw/KcKt4uJL")
 AddScriptButton(BloxFruits, "Redz Hub", "https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua")
 AddScriptButton(BloxFruits, "Hoho Hub", "https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI")
 AddScriptButton(BloxFruits, "Relz Hub", "https://raw.githubusercontent.com/farghii/relzhub/main/execute.hack")
@@ -216,7 +214,7 @@ AddScriptButton(BluelockRivals, "Tora Isme Hub", "https://raw.githubusercontent.
 AddScriptButton(BluelockRivals, "Sendox Hub", "https://api.luarmor.net/files/v3/loaders/2f4e30b1511c2c07bee1be782460a57a.lua")
 AddScriptButton(BluelockRivals, "Flow Hub", "https://pastebin.com/raw/D1M2PLua")
 AddScriptButton(BluelockRivals, "Drag me Hub", "https://gist.githubusercontent.com/Yopapa7/8f9c43ed1a16ba4dbb5464e169154e65/raw/bdc9d6f650c829f470b6c4c05e66fbc5f7efc92e/gistfile1.txt")
-AddScriptButton(BluelockRivals, "Spins Infinitos Passivo", "https://pastebin.com/raw/amFm2Ltu")
+AddScriptButton(BluelockRivals, "Spins Infinitos (Passivo)", "https://pastebin.com/raw/amFm2Ltu")
 
 
 
