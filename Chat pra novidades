@@ -1,17 +1,12 @@
 local ChatService = game:GetService("Chat")
-local Players = game:GetService("Player")
+local Players = game:GetService("Players")
 
--- Variável para armazenar a mensagem
-local mensagemPadrao = "Aproveite a Atualização do Blox Fruits, Compatilhe o nosso script para seus amigos também Usarem!" -- Alterar a mensagem aqui
-
--- Função para exibir balões de chat para todos os jogadores
-local function showBubbleChatForAll(message)
-    for _, player in ipairs(Players:GetPlayers()) do
-        if player.Character and player.Character:FindFirstChild("Head") then
-            ChatService:Chat(player.Character.Head, message, Enum.ChatColor.White)
-        end
+local function showBubbleChat(message)
+    local player = Players.LocalPlayer -- Obtém automaticamente o jogador que executa o script
+    if player and player.Character and player.Character:FindFirstChild("Head") then
+        ChatService:Chat(player.Character.Head, message, Enum.ChatColor.White)
     end
 end
 
--- Chama a função usando a mensagem configurada
-showBubbleChatForAll(mensagemPadrao)
+-- Chama a função
+showBubbleChat("Aproveite a Atualização do Blox Fruits, Compatilhe o nosso script para seus amigos também Usarem!")
