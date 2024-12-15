@@ -216,6 +216,8 @@ AddScriptButton(BluelockRivals, "Tora Isme Hub", "https://raw.githubusercontent.
 AddScriptButton(BluelockRivals, "Sendox Hub", "https://api.luarmor.net/files/v3/loaders/2f4e30b1511c2c07bee1be782460a57a.lua")
 AddScriptButton(BluelockRivals, "Flow Hub", "https://pastebin.com/raw/D1M2PLua")
 AddScriptButton(BluelockRivals, "Drag me Hub", "https://gist.githubusercontent.com/Yopapa7/8f9c43ed1a16ba4dbb5464e169154e65/raw/bdc9d6f650c829f470b6c4c05e66fbc5f7efc92e/gistfile1.txt")
+AddScriptButton(BluelockRivals, "Spins Infinitos Passivo", "https://pastebin.com/raw/amFm2Ltu")
+
 
 
 
