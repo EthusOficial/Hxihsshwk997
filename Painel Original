@@ -20,40 +20,20 @@ local function AddScriptButton(tab, name, url)
         end
     })
 end
--- [ Aba: canal do Youtube e Executores]
-local DiscordTab = Window:MakeTab({
-    Name = "Painel ",
-    Icon = "rbxassetid://7743875962",
+-- [ Aba: Painel ]
+local PainelTab = Window:MakeTab({
+    Name = "Painel",
+    Icon = "rbxassetid://11819163504",
     PremiumOnly = false
 })
 
--- Mensagem e botão para copiar o link do Discord
-DiscordTab:AddLabel("Última atualização em 15/12/24")
-DiscordTab:AddButton({
-    Name = "Copiar link do discord",
-    Callback = function()
-        setclipboard("https://discord.gg/s58hmqv8") -- Link do Discord
-        OrionLib:MakeNotification({
-            Name = "Link do Discord Copiado",
-            Content = "O link do Discord foi copiado!",
-            Image = "rbxassetid://5013032505",
-            Time = 5
-        })
-    end
-})
-DiscordTab:AddLabel("Executores Atualizados")
-DiscordTab:AddButton({
-    Name = "Executores Atualizados (link direto)",
-    Callback = function()
-        setclipboard("https://beacons.ai/ethus/mobile") -- Link do Beacons
-        OrionLib:MakeNotification({
-            Name = "Link dos executores foi Copiado",
-            Content = "O link foi copiado!",
-            Image = "rbxassetid://11819163504",
-            Time = 5
-        })
-    end
-})
+-- Adicionar Scripts (Painel)
+AddScriptButton(PainelTab, "</> Aimbot Universal", "https://raw.githubusercontent.com/Yousuck780/troll-x/main/ahhhh")
+AddScriptButton(PainelTab, "</> Graficos Realistas", "https://raw.githubusercontent.com/Flybobbb/robloxscripts/main/rtx.lua")
+AddScriptButton(PainelTab, "</> Infinite Yield", "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
+AddScriptButton(PainelTab, "</> Retirar Texturas", "https://rawscripts.net/raw/Universal-Script-antilag-15462")
+AddScriptButton(PainelTab, "</> Servidor Privado", "https://pastebin.com/raw/A4r1pHJY")
+AddScriptButton(PainelTab, "</> TP Tools", "https://pastebin.com/raw/7pQFmXUv")
 
 -- [ Aba: Anime Realms ]
 local animerealms = Window:MakeTab({
