@@ -105,6 +105,7 @@ local BloxFruits = Window:MakeTab({
 })
 BloxFruits:AddLabel("Última atualização em 15/12/24")
 
+AddScriptButton(BloxFruits, "Speed X Hub", "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua")
 AddScriptButton(BloxFruits, "Redz Hub", "https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua")
 AddScriptButton(BloxFruits, "Hoho Hub", "https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI")
 AddScriptButton(BloxFruits, "Relz Hub", "https://raw.githubusercontent.com/farghii/relzhub/main/execute.hack")
