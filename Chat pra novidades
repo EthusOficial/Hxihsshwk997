@@ -9,4 +9,4 @@ local function showBubbleChat(message)
 end
 
 -- Chama a função
-showBubbleChat("Aproveite a Atualização do Blox Fruits, Compatilhe o nosso script para seus amigos também Usarem!")
+showBubbleChat("Para quem vai jogar o Blox Fruits eu recomendo executar o SPEED HUB que foi atualizado essa madrugada.")
