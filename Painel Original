@@ -156,7 +156,7 @@ AddScriptButton(BloxFruits, "XT Hub", "https://github.com/Basicallyy/Basicallyy/
 AddScriptButton(BloxFruits, "Poison Hub", "https://raw.githubusercontent.com/LuaCrack/Poison/refs/heads/main/PoisonHub")
 AddScriptButton(BloxFruits, "Zen Hub", "https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/zennewwwwui.lua")
 AddScriptButton(BloxFruits, "Tsuo Hub", "https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts")
-AddScriptButton(BloxFruits, "Moon Hub", "https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/MoonHub")
+AddScriptButton(BloxFruits, "LT Fruits Hub", "https://raw.githubusercontent.com/kokojoscripts/Script-wave-blox-fruit/refs/heads/main/V3")
 AddScriptButton(BloxFruits, "Echo Hub", "https://raw.githubusercontent.com/EchoHubOfficial/Scripts/main/Loader.lua")
 AddScriptButton(BloxFruits, "Omega Hub", "https://raw.githubusercontent.com/OmegaHubDev/OmegaScripts/main/Loader.lua")
 AddScriptButton(BloxFruits, "Supreme Hub", "https://raw.githubusercontent.com/SupremeHubTeam/Source/main/SupremeLoader.lua")
