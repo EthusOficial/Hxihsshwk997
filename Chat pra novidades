@@ -10,3 +10,6 @@ end
 
 -- Chama a função
 showBubbleChat("Para quem vai jogar o Blox Fruits eu recomendo executar o SPEED HUB que foi atualizado essa madrugada.")
+end
+end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
