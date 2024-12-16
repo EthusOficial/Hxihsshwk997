@@ -35,6 +35,22 @@ AddScriptButton(PainelTab, "</> Retirar Texturas", "https://rawscripts.net/raw/U
 AddScriptButton(PainelTab, "</> Servidor Privado", "https://pastebin.com/raw/A4r1pHJY")
 AddScriptButton(PainelTab, "</> TP Tools", "https://pastebin.com/raw/7pQFmXUv")
 
+-- [ Aba: Anime Shadow ]
+local animeshadow = Window:MakeTab({
+    Name = "Anime Shadow",
+    Icon = "rbxassetid://11348590078",
+    PremiumOnly = false
+})
+animeshadow:AddLabel("Última atualização em 11/12/2024")
+AddScriptButton(animeshadow, "Fazium Hub", "https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader")
+AddScriptButton(animeshadow, "Nami Hub", "https://raw.githubusercontent.com/ByNami/dkhub/main/Script")
+AddScriptButton(animeshadow, "OMG Hub", "https://raw.githubusercontent.com/Omgshit/Scripts/main/GamePassScript")
+AddScriptButton(animeshadow, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/Universal/main/NSHUB")
+AddScriptButton(animeshadow, "NoName Hub", "https://noname-hub.fun/loader.lua")
+AddScriptButton(animeshadow, "Rewrite Hub", "https://raw.githubusercontent.com/DENGHUB2025/HUGHUB/main/WL")
+AddScriptButton(animeshadow, "Tora Isme Hub", "https://raw.githubusercontent.com/ToraScript/Script/main/AnimeShadow")
+
+
 -- [ Aba: Anime Realms ]
 local animerealms = Window:MakeTab({
     Name = "Anime Realms",
