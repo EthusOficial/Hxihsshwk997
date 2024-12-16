@@ -16,10 +16,15 @@ local function AddScriptButton(tab, name, url)
     tab:AddButton({
         Name = name,
         Callback = function()
+            local ChatService = game:GetService("Chat")
+            if Player.Character and Player.Character:FindFirstChild("Head") then
+                ChatService:Chat(Player.Character.Head, "Executando...", Enum.ChatColor.White)
+            end
             loadstring(game:HttpGet(url))()
         end
     })
 end
+
 -- [ Aba: Painel ]
 local PainelTab = Window:MakeTab({
     Name = "Painel",
