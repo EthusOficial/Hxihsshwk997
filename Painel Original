@@ -275,6 +275,8 @@ AddScriptButton(gofiching, "Naoki Hub", "https://naokihub.vercel.app")
 AddScriptButton(gofiching, "Candy Hub", "https://raw.githubusercontent.com/vateq/CandyHub/refs/heads/main/Loader.lua")
 AddScriptButton(gofiching, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/go/refs/heads/main/is")
 AddScriptButton(BluelockRivals, "Switch Hub", "1432df971996797b8a275b074df7491d.lua")
+AddScriptButton(BluelockRivals, "Tbao Hub", "https://raw.githubusercontent.com/tbao143/game/refs/heads/main/TbaoHubBlueLockRivals")
+
 
 
 -- [ Aba: King Legacy ]
