@@ -184,6 +184,8 @@ AddScriptButton(gofiching, "Candy Hub", "https://raw.githubusercontent.com/vateq
 AddScriptButton(gofiching, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/go/refs/heads/main/is")
 AddScriptButton(BluelockRivals, "Switch Hub", "1432df971996797b8a275b074df7491d.lua")
 AddScriptButton(BluelockRivals, "Tbao Hub", "https://raw.githubusercontent.com/tbao143/game/refs/heads/main/TbaoHubBlueLockRivals")
+AddScriptButton(BluelockRivals, "Tdu Hub", "https://raw.githubusercontent.com/Bhusant/Tdu-refined/refs/heads/main/Toilet")
+
 
 
 
