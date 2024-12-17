@@ -127,6 +127,15 @@ AddScriptButton(BluelockRivals, "Drag me Hub", "https://gist.githubusercontent.c
 AddScriptButton(BluelockRivals, "Rinns Hub", "https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code")
 
 
+-- [ Aba: Meta Lock ]
+local MetaLock = Window:MakeTab({
+    Name = "Meta Lock",
+    Icon = "rbxassetid://11348590078",
+    PremiumOnly = false
+})
+MetaLock:AddLabel("Última atualização em 17/12/2024")
+AddScriptButton(MetaLock, "Blast Hub", "https://raw.githubusercontent.com/Robloxblast/Meta-Lock/main/Protected_4682559165984511.txt")
+AddScriptButton(MetaLock, "Auto Ball Hub", "https://pastebin.com/raw/97mDa2fj")
 
 
 
