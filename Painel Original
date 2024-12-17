@@ -108,6 +108,7 @@ BloxFruits:AddLabel("Última atualização em 17/12/24")
 AddScriptButton(BloxFruits, "Alchemy Hub", "https://scripts.alchemyhub.xyz")
 AddScriptButton(BloxFruits, "Speed X Hub", "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua")
 AddScriptButton(BloxFruits, "Kncryptc Hub", "https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/BloxFruit.lua")
+AddScriptButton(BloxFruits, "HOHO Hub", "https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI")
 
 -- [ Aba: Blue Lock Rivals ]
 local BluelockRivals = Window:MakeTab({
