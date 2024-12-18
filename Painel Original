@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/NIGHT163626/ScriptHUB/refs/heads/main/open%20sourcezada.txt'))()
 local Player = game.Players.LocalPlayer
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ETHUS2/Hxihsshwk997/refs/heads/main/Chat%20pra%20novidades"))()
+
 local Window = OrionLib:MakeWindow({
     Name = "Xethus Hub | Universal BR", 
     SearchBar = { Default = 'Pesquise', ClearTextOnFocus = true }, 
