@@ -1,12 +1,24 @@
 local ChatService = game:GetService("Chat")
 local Players = game:GetService("Players")
 
-local function showBubbleChat(message)
-    local player = Players.LocalPlayer -- Obtém automaticamente o jogador que executa o script
+local function copyToClipboard(text)
+    setclipboard(text) -- Somente funciona em LocalScripts e com permissões seguras.
+end
+
+local function showBubbleChat(message, link)
+    local player = Players.LocalPlayer
     if player and player.Character and player.Character:FindFirstChild("Head") then
         ChatService:Chat(player.Character.Head, message, Enum.ChatColor.White)
+        -- Copiar o link após a mensagem ser exibida
+        copyToClipboard(link)
+        print("Link copiado para a área de transferência!")
+    else
+        warn("Player ou Head inválido.")
     end
 end
 
--- Chama a função
-showBubbleChat("Para quem vai jogar o Blox Fruits eu recomendo executar o SPEED HUB que foi atualizado essa madrugada.")
+-- Link do canal
+local youtubeLink = "https://youtube.com/@xethushub?si=XmK5Lue26V-Cwb-x"
+
+-- Executar a função
+showBubbleChat("Meu canal de 7 mil inscritos foi excluído do YouTube por motivos de segurança. Inscreva-se no meu novo canal!", youtubeLink)
