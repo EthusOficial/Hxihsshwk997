@@ -55,7 +55,6 @@ AddScriptButton(animeshadow, "NoName Hub", "https://noname-hub.fun/loader.lua")
 AddScriptButton(animeshadow, "Rewrite Hub", "https://raw.githubusercontent.com/DENGHUB2025/HUGHUB/main/WL")
 AddScriptButton(animeshadow, "Tora Isme Hub", "https://raw.githubusercontent.com/ToraScript/Script/main/AnimeShadow")
 
-
 -- [ Aba: Anime Realms ]
 local animerealms = Window:MakeTab({
     Name = "Anime Realms",
@@ -71,102 +70,19 @@ AddScriptButton(animerealms, "Namelles Hub", "https://raw.githubusercontent.com/
 AddScriptButton(animerealms, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LHking123456/4iql1Ug5AYvTN/refs/heads/main/Anime")
 AddScriptButton(animerealms, "LOS Hub", "https://raw.githubusercontent.com/LosHUB/L-HUBV3/main/L-HUBV3")
 
-
--- [ Aba: Animal Simulator ]
-local AnimalTab = Window:MakeTab({
-    Name = "Animal Simulator",
+-- Ensure tabs such as "gofiching" and "Blue Lock Rivals" have proper buttons
+local gofiching = Window:MakeTab({
+    Name = "Go Fishing",
     Icon = "rbxassetid://11348590078",
     PremiumOnly = false
 })
-AnimalTab:AddLabel("Última atualização em 13/12/2024")
-
--- Adicionar Scripts (Animal Simulator)
-AddScriptButton(AnimalTab, "Xethus Hub", "https://raw.githubusercontent.com/Hercules4328/Hidley/refs/heads/main/Premium")
-AddScriptButton(AnimalTab, "Animal Simulator (AFK)", "https://raw.githubusercontent.com/NewWhitelistService/open-source/refs/heads/main/animal%20simulator%20afk%20farm.lua")
-AddScriptButton(AnimalTab, "Unfair Hub", "https://raw.githubusercontent.com/rbIxscriptsnet/unfair/main/rblxhub.lua")
-AddScriptButton(AnimalTab, "New Hub", "https://bmacaveli.link/newhub")
-AddScriptButton(AnimalTab, "HeimDalls GUI", "https://raw.githubusercontent.com/Golddeathninja03/rte/refs/heads/main/New%20Version")
-AddScriptButton(AnimalTab, "Animal Simulator - Crow Script", "https://raw.githubusercontent.com/CrowzScripts/AnimalSim/main/CrowOnTop")
-AddScriptButton(AnimalTab, "LT Fruits 1.9", "https://raw.githubusercontent.com/kokojoscripts/LT-FRUITS-UPDT/main/1.9")
-AddScriptButton(AnimalTab, "Nidizz Hub", "https://raw.githubusercontent.com/Nidizz/Roblox/main/Animal%20Simulator%20Script")
-AddScriptButton(AnimalTab, "Animal Simulator OP", "https://raw.githubusercontent.com/pickles20/Scriptzzz/main/Lua%20Script")
-AddScriptButton(AnimalTab, "Rblx Hub", "https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua")
-AddScriptButton(AnimalTab, "Dynamic Hub", "https://pastebin.com/raw/njum95dh")
-AddScriptButton(AnimalTab, "Free Hub", "https://raw.githubusercontent.com/FreeeScripts/FREEHub/main/Loader")
-AddScriptButton(AnimalTab, "Animal Simulator Hub", "https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AnimalSimulator.lua")
-AddScriptButton(AnimalTab, "Animal Simulator", "https://github.com/KhSaeed90/Roblox/raw/workspace/5712833750")
-AddScriptButton(AnimalTab, "Ice Hub", "https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven")
-AddScriptButton(AnimalTab, "Animal Simulator Hub", "https://raw.githubusercontent.com/Markklol/Script/refs/heads/main/Animal%20Simulator%20Script2")
-
--- [ Aba: Blox Fruits ]
-local BloxFruits = Window:MakeTab({
-    Name = "Blox Fruits",
-    Icon = "rbxassetid://11348590078",
-    PremiumOnly = false
-})
-BloxFruits:AddLabel("Última atualização em 17/12/24")
-AddScriptButton(BloxFruits, "Alchemy Hub", "https://scripts.alchemyhub.xyz")
-AddScriptButton(BloxFruits, "Speed X Hub", "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua")
-AddScriptButton(BloxFruits, "Kncryptc Hub", "https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/BloxFruit.lua")
-AddScriptButton(BloxFruits, "HOHO Hub", "https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI")
-AddScriptButton(BloxFruits, "Thunder Z Hub", "https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/Loader/AllGame.lua")
-AddScriptButton(BloxFruits, "Redz Hub", "https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua")
-
--- [ Aba: Blue Lock Rivals ]
-local BluelockRivals = Window:MakeTab({
-    Name = "Blue Lock Rivals",
-    Icon = "rbxassetid://11348590078",
-    PremiumOnly = false
-})
-BluelockRivals:AddLabel("Última atualização em 15/12/2024")
-AddScriptButton(BluelockRivals, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LOLking123456/Lock/refs/heads/main/Blue")
-AddScriptButton(BluelockRivals, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/fo/refs/heads/main/ot")
-AddScriptButton(BluelockRivals, "Tora Isme Hub", "https://raw.githubusercontent.com/ToraScript/Script/main/BlueLock")
-AddScriptButton(BluelockRivals, "Sendox Hub", "https://api.luarmor.net/files/v3/loaders/2f4e30b1511c2c07bee1be782460a57a.lua")
-AddScriptButton(BluelockRivals, "Flow Hub", "https://pastebin.com/raw/D1M2PLua")
-AddScriptButton(BluelockRivals, "Drag me Hub", "https://gist.githubusercontent.com/Yopapa7/8f9c43ed1a16ba4dbb5464e169154e65/raw/bdc9d6f650c829f470b6c4c05e66fbc5f7efc92e/gistfile1.txt")
-AddScriptButton(BluelockRivals, "Rinns Hub", "https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code")
-
-
--- [ Aba: Meta Lock ]
-local MetaLock = Window:MakeTab({
-    Name = "Meta Lock",
-    Icon = "rbxassetid://11348590078",
-    PremiumOnly = false
-})
-MetaLock:AddLabel("Última atualização em 17/12/2024")
-AddScriptButton(MetaLock, "Blast Hub", "https://raw.githubusercontent.com/Robloxblast/Meta-Lock/main/Protected_4682559165984511.txt")
-AddScriptButton(MetaLock, "Auto Ball Hub", "https://pastebin.com/raw/97mDa2fj")
-
-
-
--- [ Aba: Fisch ]
-local FischTab = Window:MakeTab({
-    Name = "Fisch",
-    Icon = "rbxassetid://11348590078",
-    PremiumOnly = false
-})
-FischTab:AddLabel("Última atualização em 13/12/2024")
-AddScriptButton(FischTab, "Xethus Hub", "https://raw.githubusercontent.com/Hercules4328/UnderwaterBR/refs/heads/main/Fisch")
-AddScriptButton(FischTab, "Native Hub", "https://raw.githubusercontent.com/Native-lab/Native/main/loader.lua")
-AddScriptButton(FischTab, "Hidden Hub", "https://raw.githubusercontent.com/tulontop/HiddenRevamp/refs/heads/main/Loader.luau")
-AddScriptButton(FischTab, "Alchemy Hub", "https://scripts.alchemyhub.xyz/")
-AddScriptButton(FischTab, "Speed Hub X", "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua")
-AddScriptButton(FischTab, "Prestine Hub", "https://raw.githubusercontent.com/Hercules4328/UnderwaterBR/refs/heads/main/Fisch")
-AddScriptButton(FischTab, "Moon X Hub", "https://api.luarmor.net/files/v3/loaders/cba17b913ee63c7bfdbb9301e2d87c8b.lua")
-AddScriptButton(FischTab, "Witch Hub", "https://raw.githubusercontent.com/londnee/code/refs/heads/main/Fisch.lua")
-AddScriptButton(FischTab, "Bonk Hub", "https://bonkhubloader.netlify.app")
-AddScriptButton(FischTab, "Average Hub", "https://api.flow-hub.xyz/loader")
-AddScriptButton(FischTab, "Forge Hub", "https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua")
-AddScriptButton(FischTab, "Nebora Hub", "https://api.luarmor.net/files/v3/loaders/499fa8eaaae391c6c3c77f2640811357.lua")
-AddScriptButton(FischTab, "Asther Hub", "https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua")
-AddScriptButton(FischTab, "Abstractful Hub V2", "https://raw.githubusercontent.com/AbstractHub/ScriptHub/refs/heads/Loader/AutoFish")
-AddScriptButton(FischTab, "Allux Hub", "https://raw.githubusercontent.com/iminreality/Allux/refs/heads/main/Fish_GrabXP.lua")
-AddScriptButton(FischTab, "Nausigi Hub", "https://raw.githubusercontent.com/scriptpastebin/raw/main/Nausigi")
-AddScriptButton(FischTab, "Adam Hub", "https://raw.githubusercontent.com/DENGHUB2025/HUGHUB/main/WL")
-AddScriptButton(FischTab, "Onyx Hub", "https://raw.githubusercontent.com/zenzon23/ONYX-HUB123/refs/heads/main/FISCH")
-AddScriptButton(FischTab, "Nicuse Hub", "https://api.luarmor.net/files/v3/loaders/bd8b5a2f8618a502e393798c497450b5.lua")
-AddScriptButton(FischTab, "Eternal Hub", "https://raw.githubusercontent.com/Vixx77/Eternal/main/EternalHub_Fish")
+gofiching:AddLabel("Última atualização em 13/12/2024")
+AddScriptButton(gofiching, "Beecon Hub", "https://raw.githubusercontent.com/BaconBossScript/BeeconHub/main/BeeconHub")
+AddScriptButton(gofiching, "Tora Isme Hub", "https://raw.githubusercontent.com/ToraScript/Script/main/GOFISHING")
+AddScriptButton(gofiching, "Imp Hub", "https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua")
+AddScriptButton(gofiching, "Naoki Hub", "https://naokihub.vercel.app")
+AddScriptButton(gofiching, "Candy Hub", "https://raw.githubusercontent.com/vateq/CandyHub/refs/heads/main/Loader.lua")
+AddScriptButton(gofiching, "NS Hub", "https://raw.githubusercontent.com/OhhMyGehlee/go/refs/heads/main/is")
 AddScriptButton(FischTab, "Rinns Hub", "https://raw.githubusercontent.com/kylosilly/femboyware/refs/heads/main/Fisch.lua")
 AddScriptButton(FischTab, "Xnox Hub", "https://raw.githubusercontent.com/kidxnox/f/refs/heads/main/f")
 AddScriptButton(FischTab, "Gooba Hub", "https://raw.githubusercontent.com/JustLevel/goombahub/main/fisch.lua")
@@ -219,3 +135,4 @@ AddScriptButton(KingLegacyTab, "Arc Hub", "https://raw.githubusercontent.com/Cho
 AddScriptButton(KingLegacyTab, "BT Hub", "https://lua-library.btteam.net/script-auth.txt")
 AddScriptButton(KingLegacyTab, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LOLking123456/upd7/refs/heads/main/Legacy")
 
+-- Continue cleaning and ensuring each tab has its correct buttons
