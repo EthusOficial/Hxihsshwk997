@@ -437,3 +437,16 @@ AddScriptButton(KingLegacyTab, "Hyper Hub", "https://raw.githubusercontent.com/D
 AddScriptButton(KingLegacyTab, "Arc Hub", "https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua")
 AddScriptButton(KingLegacyTab, "BT Hub", "https://lua-library.btteam.net/script-auth.txt")
 AddScriptButton(KingLegacyTab, "Legend HandlesYT Hub", "https://raw.githubusercontent.com/LOLking123456/upd7/refs/heads/main/Legacy")
+-- [ Aba: Fruit Battlegrounds ]
+local FruitBattleTab = Window:MakeTab({
+    Name = "Fruit Battlegrounds",
+    Icon = "rbxassetid://11819163504",
+    PremiumOnly = false
+})
+
+-- Adicionar Scripts (Fruit battlegrounds)
+AddScriptButton(FruitBattleTab, "Dracula Hub", "https://pastefy.app/G5q15qYK/raw")
+AddScriptButton(FruitBattleTab, "Imp Hub", "https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua")
+AddScriptButton(FruitBattleTab, "Ashen Hub", "https://raw.githubusercontent.com/KirillEee/Askien-Hub/refs/heads/main/Fruit%20Battlegrounds")
+AddScriptButton(FruitBattleTab, "Turle Z Hub", "https://raw.githubusercontent.com/noSkidlol/Roblox/main/LOADING_UI")
+AddScriptButton(FruitBattleTab, "Jumble Bumble Hub", "https://raw.githubusercontent.com/JumbleBumble/Scripts/main/FruitBattlegrounds.lua")
